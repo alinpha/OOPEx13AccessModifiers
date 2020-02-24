@@ -12,9 +12,18 @@ namespace ClassLib
         {
             Car car = new Car();
 
+            OpenDoor();
+            SitDown();
+            GetKeysOutOfPocket();
+
+            car.StartEngine();
             car.ApplyBreak();
             car.HoldBreak();
             car.SpeedUp();
         }
+
+        private void OpenDoor() { }
+        private void SitDown() { }
+        private void GetKeysOutOfPocket() { }
     }
 }
