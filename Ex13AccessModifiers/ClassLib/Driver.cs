@@ -8,6 +8,13 @@ namespace ClassLib
 {
     public class Driver
     {
+        public void OperateCar()
+        {
+            Car car = new Car();
 
+            car.ApplyBreak();
+            car.HoldBreak();
+            car.SpeedUp();
+        }
     }
 }
